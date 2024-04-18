@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Data</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <!-- Add more navigation links as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <input type="text" id="searchInput" placeholder="Search for a country...">
+            <button onclick="searchCountry()">Search</button>
+        </div>
+
+        <div id="countryData" class="container"></div>
+    </main>
+
+    <footer>
+        <p> 2024 Country Weather </p>
+    </footer>
+
+    <script src="weather.js"></script>
+</body>
+</html>
